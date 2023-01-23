@@ -11,6 +11,7 @@ import { CertifsComponent } from './components/pages/certifs/certifs.component';
 import { ProjectsComponent } from './components/pages/projects/projects.component';
 import { HeaderComponent } from './components/pages/header/header.component';
 import { FooterComponent } from './components/pages/footer/footer.component';
+import { GeneralComponent } from './components/pages/general/general.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './components/pages/footer/footer.component';
     CertifsComponent,
     ProjectsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    GeneralComponent
   ],
   imports: [
     BrowserModule,
