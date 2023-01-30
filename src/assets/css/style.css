@@ -90,7 +90,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 90px;
+  height: 60px;
   transition: all 0.5s;
   z-index: 997;
   background: rgba(52, 59, 64, 0.9);
@@ -108,7 +108,7 @@ h6 {
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: rgb(238, 121, 12);
+  color: #fff;
 }
 
 #header #logo img {
@@ -118,15 +118,14 @@ h6 {
 
 #header.header-transparent {
   background: transparent;
-  /* background: rgba(52, 59, 64, 0.9); */
-
 }
 
 #header.header-scrolled {
   background: rgba(52, 59, 64, 0.9);
-  height: 70px;
+  height: 50px;
   transition: all 0.5s;
 }
+
 
 .scrolled-offset {
   margin-top: 70px;
