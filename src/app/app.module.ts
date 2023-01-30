@@ -18,9 +18,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-//  export function HttpLoaderFactory(http:HttpClient){
-//   return new TranslateHttpLoader(http,'./assets/i18n/','.json');
-//  }
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, 'assets/i18n/');
+}
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,13 +43,15 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
-    // TranslateModule.forRoot({
-    //   loader: {
-    //     provide: TranslateLoader,
-    //     useFactory: (TranslateLoader),
-    //     deps: [HttpClient]
-    //   }
-    // }),
+    HttpClientModule,
+    TranslateModule.forRoot({
+      defaultLanguage:'fr-FR',
+      loader: {
+          provide: TranslateLoader,
+          useFactory: HttpLoaderFactory,
+          deps: [HttpClient]
+      }
+  })
 
   ],
   exports:[
