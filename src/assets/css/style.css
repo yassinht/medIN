@@ -15,7 +15,8 @@ body {
 }
 
 a {
-  color: #2dc997;
+  color: #0070B8
+;
   text-decoration: none;
 }
 
@@ -54,7 +55,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2dc997;
+  background: #0070B8
+;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -116,7 +118,7 @@ h6 {
   margin: 0;
   
 position: absolute;
-left: 6.74%;
+left: 2.74%;
 right: 80.72%;
 top: 0.26%;
 bottom: 98.57%;
@@ -163,7 +165,7 @@ margin-top: 0.3%;
 
 .navbar>ul>li {
   white-space: nowrap;
-  padding: 10px 0 10px 24px;
+  padding: 10px 0 10px 7px;
 }
 
 .navbar a,
@@ -196,7 +198,8 @@ margin-top: 0.3%;
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #2dc997;
+  background-color: #0070B8
+;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -249,7 +252,8 @@ margin-top: 0.3%;
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #2dc997;
+  color: #0070B8
+;
 }
 
 .navbar .dropdown:hover>ul {
@@ -354,7 +358,8 @@ margin-top: 0.3%;
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #2dc997;
+  color: #0070B8
+;
 }
 
 .navbar-mobile .getstarted,
@@ -389,7 +394,8 @@ margin-top: 0.3%;
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #2dc997;
+  color: #0070B8
+;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -402,7 +408,7 @@ margin-top: 0.3%;
 #hero {
   max-width: 100%;
   min-height: 100vh;
-  background: url(../img/bg22.jpg) top center;
+  background: url(../img/bg1.png) top center;
   background-size: cover;
   position: relative;
   background-repeat:no-repeat;
@@ -486,8 +492,10 @@ margin-top: 0.3%;
 }
 
 #hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #0070B8
+;
+  border: 2px solid #0070B8
+;
 }
 
 /*--------------------------------------------------------------
@@ -624,11 +632,13 @@ section {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #2dc997;
+  border: 2px solid #0070B8
+;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: #0070B8
+;
   font-size: 24px;
   line-height: 0;
 }
@@ -651,6 +661,66 @@ section {
   font-size: 14px;
 }
 
+
+/* certif Us Section
+--------------------------------*/
+/* Team Section
+--------------------------------*/
+#certif {
+  background: #fff;
+  padding: 80px 0 60px 0;
+}
+
+#certif .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#certif .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 100%;
+}
+
+#certif .member .pic img {
+  max-width: 100%;
+  max-width : 100%;
+  heigth: auto;
+  display: block;
+}
+
+#certif .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#certif .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#certif .member .social {
+  margin-top: 15px;
+}
+
+#certif .member .social a {
+  color: #b3b3b3;
+}
+
+#certif .member .social a:hover {
+  color: #0070B8
+;
+}
+
+#certif .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+
+
 /* Facts Section
 --------------------------------*/
 #facts {
@@ -661,7 +731,8 @@ section {
 #facts .counters span {
   font-size: 48px;
   display: block;
-  color: #2dc997;
+  color: #0070B8
+;
 }
 
 #facts .counters p {
@@ -703,7 +774,8 @@ section {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #2dc997;
+  background: #0070B8
+;
 }
 
 #services .icon a {
@@ -718,15 +790,18 @@ section {
 
 #services .box:hover .icon {
   background: #fff;
-  border: 2px solid #2dc997;
+  border: 2px solid #0070B8
+;
 }
 
 #services .box:hover .icon i {
-  color: #2dc997;
+  color: #0070B8
+;
 }
 
 #services .box:hover .icon a {
-  color: #2dc997;
+  color: #0070B8
+;
 }
 
 #services .title {
@@ -793,8 +868,10 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #0070B8
+;
+  border: 2px solid #0070B8
+;
 }
 
 /* Portfolio Section
@@ -829,7 +906,8 @@ section {
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #2dc997;
+  background: #0070B8
+;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -855,7 +933,8 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #2dc997;
+  background: #0070B8
+;
   padding: 15px 20px;
 }
 
@@ -920,11 +999,13 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #2dc997;
+  border: 1px solid #0070B8
+;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #2dc997;
+  background-color: #0070B8
+;
 }
 
 .portfolio-details .portfolio-info {
@@ -1007,7 +1088,8 @@ section {
 }
 
 #team .member .social a:hover {
-  color: #2dc997;
+  color: #0070B8
+;
 }
 
 #team .member .social i {
@@ -1020,7 +1102,12 @@ section {
 #contact {
   background: #f7f7f7;
   padding: 80px 0 40px 0;
+  background: url(../img/contact.png)   bottom left;
+  background-repeat:no-repeat;
+  background-size: auto;
+  background-position: left bottom;
 }
+
 
 #contact #google-map {
   height: 300px;
@@ -1029,11 +1116,13 @@ section {
 
 #contact .info {
   color: #333333;
+  
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #0070B8
+;
   float: left;
   line-height: 0;
 }
@@ -1042,7 +1131,7 @@ section {
   padding: 0 0 10px 50px;
   margin-bottom: 20px;
   line-height: 22px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #contact .info .email p {
@@ -1073,7 +1162,8 @@ section {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
+  background: #0070B8
+;
   color: #fff;
 }
 
@@ -1128,11 +1218,13 @@ section {
 
 #contact .php-email-form input::focus,
 #contact .php-email-form textarea::focus {
-  background-color: #2dc997;
+  background-color: #0070B8
+;
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #2dc997;
+  background: #0070B8
+;
   border: 0;
   padding: 10px 24px;
   color: #fff;
