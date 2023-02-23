@@ -7,6 +7,7 @@
   "langue": "language",
   "rights": "All Rights Reserved",
   "team": "Our-Team",
+  "certifications":"certifications",
   "projects":"projects",
   "title": "WELCOME TO MED'IN OUTLOOK",
   "welcome To": "welcome To",
@@ -19,15 +20,17 @@
   "sent-message":"Your message has been sent. Thank you!",
   "desgined":"Designed by",
   "info":"MED'IN OUTLOOK acts as a 'subcontracting manufacturer' for the design & development of new medical devices or the modification of those already on the market",
-  "title-about":"Few Words About Us",
+  "title-about":"About Us",
   "*":"all",
   "development":"development",
+  "Mechatronics":"Mechatronics",
   "s1":"Web Development",
   "s2":"Mobile Development",
   "s3":"Mechanical Engineering",
   "s4":"ELECTRONICS ENGINEERING",
   "s5":"Mechatronics Engineering",
-  "s6":"QUALITY MANAGEMENT"
+  "s6":"QUALITY MANAGEMENT",
+  "Projects-title":"Projects"
 
 
 

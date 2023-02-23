@@ -7,6 +7,7 @@
     "rights": "Tous droits réservés",
     "team": "Notre équipe",
     "projects":"projets",
+    "certifications":"certifications",
     "title": "Tous les droits sont réservés",
     "welcome To": "Bienvenue sur",
     "send msg": "envoyer un message",
@@ -18,8 +19,8 @@
     "sent-message":"Votre message a été envoyé. Merci!",
     "desgined":"Conçu par",
     "info":"MED'IN OUTLOOK intervient en tant que 'fabricant sous-traitant' pour la conception & développement de nouveaux dispositifs médicaux ou de la modification de ceux qui sont déja sur le marché",
-    "title-about":"Quelques Mots Sur Nous",
-     "*":"tout",
+    "title-about":"À propos de nous",
+     "*":"tous",
   "development":"développement",
   "Mechatronics":"MÉCATRONIQUE",
 
@@ -28,6 +29,8 @@
   "s3":"Génie mécanique",
   "s4":"GÉNIE ÉLECTRONIQUE",
   "s5":"Ingénierie mécatronique",
-  "s6":"GESTION DE LA QUALITÉ"
+  "s6":"GESTION DE LA QUALITÉ",
+  "Projects-title":"Projets"
+
 
 }
