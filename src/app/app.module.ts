@@ -20,6 +20,8 @@ import { FormsModule } from '@angular/forms';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TeamComponent } from './components/pages/team/team.component';
+import { ToastrModule } from 'ngx-toastr';
+
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, 'assets/i18n/');
 }
@@ -45,6 +47,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
+    ToastrModule.forRoot(),
     HttpClientModule,
     TranslateModule.forRoot({
       defaultLanguage:'fr-FR',
