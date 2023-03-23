@@ -21,6 +21,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TeamComponent } from './components/pages/team/team.component';
 import { ToastrModule } from 'ngx-toastr';
+import { ReactiveFormsModule } from '@angular/forms';  // Import ReactiveFormsModule
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, 'assets/i18n/');
@@ -46,9 +47,13 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatSelectModule,
     MatFormFieldModule,
     MatInputModule,
-    FormsModule,
-    ToastrModule.forRoot(),
-    HttpClientModule,
+    FormsModule,ReactiveFormsModule,
+    ToastrModule.forRoot({
+      timeOut: 3000,
+      positionClass: 'toast-bottom-right',
+      preventDuplicates: true,
+   }),
+        HttpClientModule,
     TranslateModule.forRoot({
       defaultLanguage:'fr-FR',
       loader: {
